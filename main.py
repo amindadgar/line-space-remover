@@ -1,9 +1,10 @@
 
+# text.txt is the input file
 file = open('test.txt')
-outputFile = open('output.txt','a')
+outputFile = open('output.txt','w')
 
 
-# read from file and create new line if we have space after characters in line (Remove the characters after everyline)
+# read from file and create new line if we have space after characters in line (Remove the blanks and create a new line)
 
 ## get each line of the file
 
@@ -29,14 +30,13 @@ for line in file:
             ## characters before space in the line
             subline = line[LastSlicePosition: point]
 
-            print(subline)
+            # print is for the debug perposes
+            # print(subline)
             LastSlicePosition = position_in_line - 1
-            ## next characters after blank spaces
-            # nextLine= line[position_in_line - 1:]
+
             ## write characters before space in the line into a new line 
             outputFile.write(subline + '\n')
-            ## write the next characters after blank spaces into a new line
-            # outputFile.write(nextLine)
+
             ## reset the counter 
             counter = 0
             ## set line_was_sliced flag into true
