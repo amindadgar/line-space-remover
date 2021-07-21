@@ -1,0 +1,51 @@
+Start of script...    
+Starting the speed vpn... for s31.serspeed.info:555 
+Connecting with certificate ...   
+POST https://s31.serspeed.info:555/     
+Connected to 51.210.72.43:555    
+SSL negotiation with s31.serspeed.info   
+Server certificate verify failed: signer not found
+Connected to HTTPS on s31.serspeed.info  
+XML POST enabled    
+Please enter your username.   
+POST https://s31.serspeed.info:555/auth     
+Please enter your password.   
+POST https://s31.serspeed.info:555/auth     
+Got CONNECT response: HTTP/1.1 200 CONNECTED 
+CSTP connected. DPD 90, Keepalive 32400 
+Connected as 192.168.9.186, using SSL, with DTLS in progre
+Established DTLS connection (using GnuTLS). Ciphersuite (DTLS1.2)-(PSK)-(AES-128-GCM).
+Too long time in MTU detect loop; MTU set to 1
+Detected MTU of 1426 bytes (was 1434)
++ RESOLVCONF=/sbin/resolvconf     
++ OPENRESOLV_VERSION=3.8.0     
++ SYSCONFDIR=/etc     
++ LIBEXECDIR=/lib/resolvconf     
++ VARDIR=/run/resolvconf     
++ RCDIR=     
++ RESTARTCMD=     
++ unset interface_order state_dir   
++ local_nameservers=127.* 0.0.0.0 255.255.255.255 ::1  
++ dynamic_order=tap[0-9]* tun[0-9]* vpn vpn[0-9]* ppp[0-9]* ippp[0-9]*
++ interface_order=lo lo[0-9]*    
++ name_server_blacklist=0.0.0.0     
++ [ -f /etc/resolvconf.conf ]  
++ . /etc/resolvconf.conf    
++ resolv_conf=/etc/resolv.conf     
++ dnsmasq_resolv=/var/run/dnsmasq/resolv.conf     
++ pdnsd_conf=/etc/pdnsd.conf     
++ unbound_conf=/var/cache/unbound/resolvconf_resolvers.conf     
++ [ -n  ]  
++ IFACEDIR=/run/resolvconf/interfaces     
++ METRICDIR=/run/resolvconf/metrics     
++ PRIVATEDIR=/run/resolvconf/private     
++ EXCLUSIVEDIR=/run/resolvconf/exclusive     
++ LOCKDIR=/run/resolvconf/lock     
++ _PWD=/home/pi/openvpn     
++ force=false     
++ VFLAG=     
++ getopts a:Dd:fhIilm:pRruvVx OPT   
++ cmd=a     
++ iface=tun0     
++ getopts a:Dd:fhIilm:pRruvVx OPT   
++ shift 2    
